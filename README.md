@@ -9,7 +9,7 @@
 
 ## 📝 Contexte du Projet
 
-Ce projet a été réalisé dans le cadre d'une compétition de classification sur Kaggle. L'objectif était d'implémenter l'algorithme des **K plus proches voisins (KNN) from scratch** — sans scikit-learn ni TensorFlow — en partant d'un code naïf jusqu'à une version optimisée par une démarche de tests systématiques et rigoureux.
+Ce projet a été réalisé dans le cadre d'un projet pédagogique incluant une compétition de classification sur Kaggle. L'objectif était d'implémenter l'algorithme des **K plus proches voisins (KNN)**, j'ai fais le choix de me rajouter la contrainte suivante: n'utiliser que python et numpy pour réaliser ce défit, en partant d'un code naïf jusqu'à une version optimisée par une démarche de tests systématiques et rigoureux.
 
 ## 🚀 Fonctionnalités
 
@@ -67,7 +67,7 @@ L'amélioration méthodique de chaque composant permet de passer de 97.951 % à 
 ## 🛠️ Stack Technique
 
 * **Langage :** Python 3
-* **Librairies :** NumPy, csv (stdlib) — zéro dépendance ML
+* **Librairies :** NumPy, csv
 * **Évaluation :** Validation croisée 20-fold, recherche multi-seeds
 * **Compétition :** Kaggle — Score final **98.634 %**
 
@@ -75,10 +75,10 @@ L'amélioration méthodique de chaque composant permet de passer de 97.951 % à 
 
 ```
 .
-├── CodeKnnWilliamdeNIJS.py   # Code principal
-├── train.csv                  # Données d'entraînement
-├── test.csv                   # Données de test
-├── submission.csv             # Prédictions finales (généré à l'exécution)
+├── CodeKnnWilliamdeNIJS.py                      # Code principal
+├── train.csv                                    # Données d'entraînement
+├── test.csv                                     # Données de test
+├── Rapport de Projet KNN William de NIJS.pdf    # Explication détaillée du contexte et des recherches effectué 
 └── README.md
 ```
 
